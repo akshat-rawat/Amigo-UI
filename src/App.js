@@ -1,5 +1,5 @@
 import React from 'react';
-import './app.css';
+import './App.css';
 import './tile/tile'
 import axios from 'axios';
 import Tile from './tile/tile';
