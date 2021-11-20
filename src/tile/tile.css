@@ -1,0 +1,46 @@
+.cover {
+  width: 30%;
+  border-radius: 1.2vw;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: top;
+}
+
+.tile:hover {
+  transform: scale(1.1);
+  z-index: 1;
+  transition-duration: 0.5s;
+}
+
+.tile {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+  background-color: rgb(24, 24, 24);
+  padding: 2%;
+  border-radius: 1.2vw;
+}
+
+.tile-content {
+  color: white;
+  display: inline-block;
+  max-width: 60%;
+  padding-left: 5%;
+  font-family: "Hind Madurai", sans-serif;
+  vertical-align: top;
+}
+
+.track-name {
+  font-size: 3vw;
+  font-weight: 1000;
+  padding: 0.5vw;
+  padding-top: 0;
+}
+.track-artist {
+  font-size: 2vw;
+  padding: 0.5vw;
+}
+.track-album {
+  font-size: 1.5vw;
+  padding: 0.5vw;
+}
