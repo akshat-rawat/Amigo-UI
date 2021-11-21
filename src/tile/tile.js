@@ -5,14 +5,16 @@ export default class Tile extends React.Component {
   render() {
     return (
       <div className="tile">
-        <img className="cover" src={this.props.data.image}></img>
-        <TileContent
-          data={{
-            name: this.props.data.name,
-            artists: this.props.data.artists,
-            album: this.props.data.album,
-          }}
-        />
+        <a href={this.props.data.spotify_link}>
+          <img className="cover" src={this.props.data.image}></img>
+          <TileContent
+            data={{
+              name: this.props.data.name,
+              artists: this.props.data.artists,
+              album: this.props.data.album,
+            }}
+          />
+        </a>
       </div>
     );
   }
