@@ -21,7 +21,7 @@ export default class Home extends React.Component {
 
 class Heading extends React.Component {
   render() {
-    return <div className="heading-container">Mastani Gand</div>;
+    return <div className="heading-container">Amigo Wall</div>;
   }
 }
 
