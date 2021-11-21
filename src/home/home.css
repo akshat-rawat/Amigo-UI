@@ -1,0 +1,41 @@
+.heading-container {
+  color: white;
+  font-family: "Hind Madurai", sans-serif;
+  font-size: 8vw;
+  font-weight: 800;
+  text-align: center;
+  margin: 2.5%;
+  padding: 1%;
+  border-radius: 1vw;
+}
+
+.button-set {
+  display: flex;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.category-button {
+  user-select: none;
+  font-size: 2.6vw;
+  margin: 2.4vw;
+  padding: 2.3vw;
+  border-radius: 1.2vw;
+  color: white;
+  background: rgb(131, 58, 180);
+  transition: all 0.3s ease-in-out;
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  border: none;
+}
+
+.category-button:hover {
+  transform: scale(1.1);
+  z-index: 1;
+  cursor: pointer;
+}
